@@ -1,0 +1,33 @@
+# Copyright (c) 2026 Jean-Francois Brisson (Spark AI NLP)
+# SPDX-License-Identifier: AGPL-3.0-only
+cff-version: 1.2.0
+title: Bee Geometry Tunneling
+message: >-
+  If you use this software, please cite it as below.
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-Francois
+    orcid: https://orcid.org/0009-0000-9778-5374
+    affiliation: Spark AI NLP
+version: 0.1.0
+date-released: 2026-11-21
+license: AGPL-3.0-only
+abstract: >-
+  Quantum tunneling (Josephson-style) through a hexagonal honeycomb
+  geometry -- the bee's geometry. The model reuses the measured
+  per-link tunneling law of josephson-membrane v0.3.0 (each barrier
+  link contributes one factor (1 - h)) and the honeycomb geometry of
+  symmetry-entropy (6 neighbours, 120-degree angles, bipartite vertex
+  lattice, Hales efficiency), and extends them: a 60-degree turn costs
+  a factor, the critical current scales with the number of parallel
+  hexagon-edge paths, and the honeycomb's symmetry axis changes the
+  transmission. Synthetic and classical; no real quantum measurement
+  is claimed.
+keywords:
+  - honeycomb
+  - hexagonal lattice
+  - tunneling
+  - Josephson
+  - bee geometry
+  - synthetic
